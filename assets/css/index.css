@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container-lollo{
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3em 0;
+}
+.taille{
+    width: 7em;
+}
+.deroullante-1{
+    display: none;
+}
+.liste{
+    display: none;
+}
+.ricerca{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: -7em;
+    width: 150px;
+}
+.icone{
+    display: none;
+}
+.img{
+    display: flex;
+    gap: 2em;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+.aide-moi{
+    margin-left: -5.5em;
+}
+.container-fluid{
+    width: 50px !important;
+}
+.deroullante-2{
+    margin-left: -6em;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to left, rgb(121, 81, 61), rgb(207, 181, 153));
+}
+.logo-img-footer{
+    width: 20%;
+}
+.catalogue nav ul{
+    list-style-type: none;
+}
+.marque nav ul{
+    list-style-type: none;
+}
+.service-client nav ul{
+    list-style-type: none;
+}
+
+
+    .promotions {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      padding: 5px 0;
+      background: linear-gradient(to right, rgb(121, 81, 61), rgb(207, 181, 153));
+    }
+
+    .promotions span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll 15s linear infinite;
+      color: #fff;
+    }
+
+    @keyframes scroll {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+
+
+
+
+
+@media (min-width: 768px){
+    .header{
+        justify-content: space-between;
+    }
+    .search{
+        display: none;
+    }
+    .deroullante-1{
+        display: block;
+    }
+    .deroullante-2{
+        display: none;
+    }
+    .icone{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+    }
+    .ricerca-2{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.taille{
+    margin-left: 0;
+    width: 10em;
+}
+}
+
+@media (min-width: 1024px){
+    .deroullante-1{
+        display: none;
+    }
+    .liste{
+        display: flex;
+    }
+    .liste nav ul{
+        display: flex;
+        list-style-type: none;
+        gap: 20%;
+        margin-left: -25em;
+    }
+    .search-2{
+        display: none;
+    }
+}
