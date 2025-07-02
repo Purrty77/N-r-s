@@ -17,19 +17,36 @@
   </head>
   <body>
     <div class="container-lollo">
+      <!-- Ici commence header -->
+
       <header>
+        <!-- Span text droit vers gauche -->
         <div class="promotions">
           <span>A partir de 60€ d'achat - 30% sur la nouvelle collection</span>
         </div>
-        <section class="header">
+
+        <!-- Ici commence la nav  -->
+
+        <div class="header">
+          <!-- Premiére div qui contient: logo -->
+
           <div class="three-div-1">
-            <img
-              src="./assets/imgs/logo-nereis.png"
-              alt="logo néréïs"
-              class="taille"
-            />
+            <a href="#"
+              ><img
+                src="./assets/imgs/logo-nereis.png"
+                alt="logo néréïs"
+                class="taille"
+            /></a>
           </div>
+
+          <!-- Deuxieme div qui contient:
+           en portable: Barre de recherche;
+           en tablet: Liste déroulante;
+           en ordinateur: nav avec  éléments -->
+
           <div class="three-div-2">
+            <!-- Barre de recherche -->
+
             <div class="search">
               <label for="cerche"></label>
               <input
@@ -41,10 +58,12 @@
               />
             </div>
 
+            <!-- Liste déroulante -->
+
             <div class="deroullante-1">
               <nav class="navbar">
                 <div class="container-fluid flex-column align-items-start w-25">
-                  <!-- Bottone Toggle -->
+                  <!-- Button -->
                   <button
                     class="navbar-toggler mb-2"
                     type="button"
@@ -57,7 +76,6 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
 
-                  <!-- Contenuto del menu che si apre verso il basso -->
                   <div class="collapse w-100" id="navbarMenu">
                     <div class="p-3">
                       <ul class="list-unstyled mb-0 aide-moi">
@@ -88,6 +106,8 @@
                 </div>
               </nav>
             </div>
+
+            <!-- Nav avec  éléments -->
 
             <div class="liste">
               <nav>
@@ -102,11 +122,18 @@
             </div>
           </div>
 
+          <!-- Troisieme div qui contient:
+           en portable: liste déroulante;
+           en tablet: 3 icônes et une barre de recherche;
+           en ordinateur: 3 icônes; -->
+
           <div class="three-div-3">
+            <!-- Liste déroulante -->
+
             <div class="deroullante-2">
               <nav class="navbar">
                 <div class="container-fluid flex-column align-items-start">
-                  <!-- Bottone Toggle -->
+                  <!-- button -->
                   <button
                     class="navbar-toggler mb-2"
                     type="button"
@@ -119,7 +146,6 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
 
-                  <!-- Contenuto del menu che si apre verso il basso -->
                   <div class="collapse w-100" id="navbarMenu">
                     <div class="p-3">
                       <ul class="list-unstyled mb-0 aide-moi">
@@ -151,14 +177,29 @@
               </nav>
             </div>
 
+            <!-- Div qui contient:
+             3 icônes;
+             barre de recherche; -->
+
             <div class="icone">
+              <!-- 3 icônes -->
+
               <div class="img">
+                <div class="icon-hover">
                 <a href="#"><i class="fa-regular fa-heart fa-xl"></i></a>
+              </div>
+              <div class="icon-hover">
                 <a href="#"><i class="fa-regular fa-user fa-xl"></i></a>
+              </div>
+              <div class="icon-hover">
                 <a href="#"
                   ><i class="fa-solid fa-basket-shopping fa-xl"></i
                 ></a>
               </div>
+              </div>
+
+              <!-- Barre de recherche -->
+
               <div class="search-2">
                 <label for="cerche"></label>
                 <input
@@ -171,8 +212,10 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </header>
+
+      <!-- Ici fini header -->
 
       <main>
         <!-- Carousel de la page d'accueil -->
@@ -229,8 +272,12 @@
         <!-- Fin du Carousel de la page d'accueil -->
       </main>
 
+      <!-- Commence footer -->
+
       <footer>
         <section class="footer">
+          <!-- Div avec logo + paragraphe -->
+
           <div class="logo-img-footer">
             <img
               src="./assets/imgs/logo-nereis.png"
@@ -247,54 +294,81 @@
               créative décide de faire revivre son héritage.
             </p>
           </div>
+
+          <!-- Ici on as nos liste -->
+
           <div class="catalogue">
             <nav>
               <ul>
-                <li><b>Catalogue</b></li>
-                <li>Bracelets</li>
-                <li>Boucles d'oreilles</li>
-                <li>Collier</li>
-                <li>Bagues</li>
-                <li>Bijoux femme</li>
-                <li>Bijoux homme</li>
-                <li>Piercings</li>
+                <li>
+                  <a href="#"><b>Catalogue</b></a>
+                </li>
+                <li><a href="#">Bracelets</a></li>
+                <li><a href="#">Boucles d'oreilles</a></li>
+                <li><a href="#">Collier</a></li>
+                <li><a href="#">Bagues</a></li>
+                <li><a href="#">Bijoux femme</a></li>
+                <li><a href="#">Bijoux homme</a></li>
+                <li><a href="#">Piercings</a></li>
               </ul>
             </nav>
           </div>
           <div class="marque">
             <nav>
               <ul>
-                <li><b>La marque</b></li>
-                <li>Notre savoir-faire</li>
-                <li>L'or et l'argent</li>
-                <li>Bijoux peronnalisables</li>
-                <li>Actualités</li>
-                <li>Politique de remboursement</li>
-                <li>Consitions d'utilisation</li>
-                <li>Programme de fidélité</li>
+                <li>
+                  <a href="#"><b>La marque</b></a>
+                </li>
+                <li><a href="#">Notre savoir-faire</a></li>
+                <li><a href="#">L'or et l'argent</a></li>
+                <li><a href="#">Bijoux peronnalisables</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Politique de remboursement</a></li>
+                <li><a href="#">Consitions d'utilisation</a></li>
+                <li><a href="#">Programme de fidélité</a></li>
               </ul>
             </nav>
           </div>
           <div class="service-client">
             <nav>
               <ul>
-                <li><b>Services client</b></li>
-                <li>Effectuer un retour</li>
-                <li>Boutiques</li>
-                <li>Service aprés-vente</li>
-                <li>Guide d'entretien</li>
-                <li>Contact</li>
-                <li>FAQ</li>
-                <li>Accessibilité</li>
+                <li>
+                  <a href="#"><b>Services client</b></a>
+                </li>
+                <li><a href="#">Effectuer un retour</a></li>
+                <li><a href="#">Boutiques</a></li>
+                <li><a href="#">Service aprés-vente</a></li>
+                <li><a href="#">Guide d'entretien</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Accessibilité</a></li>
               </ul>
             </nav>
           </div>
+
+          <!-- Div qui contient 3 icônes -->
+
           <div class="icone-footer">
-            <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #000;"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #000;"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube fa-xl" style="color: #000;"></i></a>
+            <a href="#"
+              ><i class="fa-brands fa-twitter fa-xl" style="color: #000"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-instagram fa-xl" style="color: #000"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-youtube fa-xl" style="color: #000"></i
+            ></a>
           </div>
         </section>
+        <div class="bottom-footer">
+          <nav>
+            <ul>
+              <li><a href="#">Politique de confidentialité</a></li>
+              <li><a href="#">Conditions générales d'utilisation</a></li>
+              <li><a href="#">Mentions légales</a></li>
+            </ul>
+          </nav>
+        </div>
       </footer>
     </div>
 
