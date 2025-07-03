@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(/N-r-s/assets/imgs/fond.png);
+    background-image: url(/assets/imgs/fond.png);
     background-repeat: no-repeat; background-size: cover;
 }
 
@@ -10,7 +10,22 @@ body{
  text-align: center;
 }
 
+
+.bijoux-section1 {
+ padding: 50px;
+ text-align: center;
+}
+
+
 .produit-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+ gap: 60px;
+ width: 100%;
+ margin: 0 auto;
+}
+
+.produit-grid1 {
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
  gap: 60px;
@@ -26,15 +41,40 @@ body{
  transition: transform 0.2s;
 
 }
+
+.product-card1 {
+ background: #cfb599;
+ border-radius: 10px;
+ box-shadow: 5px 5px 15px blanchedalmond ;
+ padding: 15px;
+ position: relative;
+ transition: transform 0.2s;
+
+}
 .product-card:hover {
+ transform: scale(1.02);
+}
+
+.product-card1:hover {
  transform: scale(1.02);
 }
 .product-card img {
  width: 100%;
  border-radius: 4px; 
- height: 85%;
+ height: 47vh;
+}
+
+.product-card1 img {
+ width: 100%;
+ border-radius: 4px; 
+ height: 42vh;
 }
 .product-info {
+ margin-top: 10px;
+ text-align: center;
+}
+
+.product-info1 {
  margin-top: 10px;
  text-align: center;
 }
@@ -43,9 +83,17 @@ body{
  font-size: 24px;
  margin-bottom: 5px;
 }
+
+.product-info1 span {
+ display: block;
+ font-size: 24px;
+ margin-bottom: 5px;
+}
 .product-info strong {
  font-size: 20px;
 }
+
+
 .plus {
  position: absolute;
  top: 25px;
