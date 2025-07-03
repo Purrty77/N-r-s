@@ -53,7 +53,7 @@
                 type="text"
                 name="cerche"
                 id="cherche"
-                placeholder="Recherce"
+                placeholder="Recherche"
                 class="ricerca"
               />
             </div>
@@ -186,14 +186,14 @@
 
               <div class="img">
                 <div class="icon-hover">
-                <a href="#"><i class="fa-regular fa-heart fa-xl"></i></a>
+                <a href="#"><i class="fa-regular fa-heart fa-xl" style="color: #000;"></i></a>
               </div>
               <div class="icon-hover">
-                <a href="#"><i class="fa-regular fa-user fa-xl"></i></a>
+                <a href="#"><i class="fa-regular fa-user fa-xl" style="color: #000;"></i></a>
               </div>
               <div class="icon-hover">
                 <a href="#"
-                  ><i class="fa-solid fa-basket-shopping fa-xl"></i
+                  ><i class="fa-solid fa-basket-shopping fa-xl" style="color: #000;"></i
                 ></a>
               </div>
               </div>
@@ -206,7 +206,7 @@
                   type="text"
                   name="cerche"
                   id="cherche"
-                  placeholder="Recherce"
+                  placeholder="Recherche"
                   class="ricerca-2"
                 />
               </div>
@@ -218,58 +218,72 @@
       <!-- Ici fini header -->
 
       <main>
+        <section class="container-xxl">
+
         <!-- Carousel de la page d'accueil -->
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./assets/imgs/carousel/carou4.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/imgs/carousel/carou3.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/imgs/carousel/carou2.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/imgs/carousel/carou1.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <!-- Fin du Carousel de la page d'accueil -->
+        <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/imgs/carousel/carou4.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <a href=""><img src="./assets/imgs/carousel/carou3.png" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/imgs/carousel/carou2.png" class="d-block w-100" alt="...">
+    </div>
+        <div class="carousel-item">
+      <img src="./assets/imgs/carousel/carou1.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</section>
+   <!-- Fin du Carousel de la page d'accueil -->
+
+   <!-- Petit Menu -->
+  <section class="row py-5">
+
+    <figure class="collection figure col-6 col-lg-3 position-relative ">
+  <img src="./assets/imgs/Petit Menu/femme5.jpg" class="figure-img img-fluid rounded box-shadow-test" alt="...">
+  <div><p class="fs-2 text-white position-absolute top-50 start-50 translate-middle text-center text-shadow text-hover">Collection d'Été</p></div>
+</figure>
+
+      <figure class="collection figure col-6 col-lg-3 position-relative">
+  <a href=""><img src="./assets/imgs/Petit Menu/homme2.jpg" class="figure-img img-fluid rounded box-shadow-test" alt="...">
+  <div><p class="fs-2 text-white position-absolute top-50 start-50 translate-middle text-center text-shadow text-hover">Bijoux Hommes</p></div></a>
+</figure>
+
+      <figure class="collection figure col-6 col-lg-3 position-relative">
+  <a href=""><img src="./assets/imgs/Petit Menu/femme9.jpg" class="figure-img img-fluid rounded box-shadow-test" alt="...">
+  <div><p class="fs-2 text-white position-absolute top-50 start-50 translate-middle text-center text-shadow text-hover">Bijoux Femmes</p></div></a>
+</figure>
+
+
+      <figure class="collection figure col-6 col-lg-3 position-relative">
+  <img src="./assets/imgs/Petit Menu/hommesetfemmes.jpg" class="figure-img img-fluid rounded box-shadow-test" alt="...">
+  <div><p class="fs-2 text-white position-absolute top-50 start-50 translate-middle text-center text-shadow text-hover">Collection Mixte</p></div>
+</figure>
+
+  </section>
+<!-- Fin du petit Menu -->
+
+
+
+      </section>
+
       </main>
 
       <!-- Commence footer -->
@@ -282,7 +296,7 @@
             <img
               src="./assets/imgs/logo-nereis.png"
               alt="logo"
-              class="taille"
+            
             />
             <p>
               Une nymphe des mers, gardienne des tréosrs cahés dans les
