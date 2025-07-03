@@ -33,9 +33,9 @@ body{
  margin: 0 auto;
 }
 .product-card {
- background: #cfb599;
+ background:linear-gradient( to top, rgb(92, 63, 48), rgb(197, 167, 135) );
  border-radius: 10px;
- box-shadow: 5px 5px 15px blanchedalmond ;
+ box-shadow: 4px 4px 10px rgb(56, 34, 2) ;
  padding: 15px;
  position: relative;
  transition: transform 0.2s;
@@ -43,9 +43,9 @@ body{
 }
 
 .product-card1 {
- background: #cfb599;
+background:linear-gradient( to top, rgb(92, 63, 48), rgb(197, 167, 135) );
  border-radius: 10px;
- box-shadow: 5px 5px 15px blanchedalmond ;
+ box-shadow: 4px 4px 10px rgb(56, 34, 2)  ;
  padding: 15px;
  position: relative;
  transition: transform 0.2s;
@@ -82,17 +82,24 @@ body{
  display: block;
  font-size: 24px;
  margin-bottom: 5px;
+ color: #eae4d5;
+
 }
 
 .product-info1 span {
  display: block;
  font-size: 24px;
  margin-bottom: 5px;
+ color:#eae4d5;
 }
 .product-info strong {
  font-size: 20px;
+ color: #eae4d5;
 }
-
+.product-info1 strong {
+ font-size: 20px;
+ color: #eae4d5;
+}
 
 .plus {
  position: absolute;
