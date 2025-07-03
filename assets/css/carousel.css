@@ -1,0 +1,16 @@
+.text-shadow{
+    text-shadow: 4px 4px 4px black;
+}
+
+.collection{
+    transition: 0.3s;
+
+}
+
+.collection:hover{
+    transform: scale(1.02);
+}
+
+.box-shadow-test{
+    box-shadow: 3px 3px 9px rgb(56, 34, 2);
+}
